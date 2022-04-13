@@ -46,9 +46,19 @@ Lot 3 t-test has a p-value of 4% which includes that the hypothesis should be **
 
 ## Study Design: MechaCar vs Competition
 
-Write a short description of a statistical study that can quantify how the MechaCar performs against the competition. In your study design, think critically about what metrics would be of interest to a consumer: for a few examples, cost, city or highway fuel efficiency, horse power, maintenance cost, or safety rating.
+**What metric or metrics are you going to test?**
 
-What metric or metrics are you going to test?
-What is the null hypothesis or alternative hypothesis?
-What statistical test would you use to test the hypothesis? And why?
-What data is needed to run the statistical test?
+Consumers are sensitive to the initial price of their car and care about the average yearly maintenance cost. It would be beneficial to understand if there is a connection between the price of the vehicle and the estimated average maintenance cost.  When comparing the outcomes of the MechaCar vs the competitors this would allow the leadership team to understand if the price of their car was reasonable compared to the competition.
+
+**What is the null hypothesis or alternative hypothesis?**
+
+Null hypothesis: MechaCar is priced below competitor with the equivalent average yearly maintenance cost. 
+Alternative hypothesis: MechaCar is not priced below competitor with the equivalent average yearly maintenance cost.
+
+**What statistical test would you use to test the hypothesis? And why?**
+
+I would recommend using the single sided t-test to understand if the MechaCars average yearly maintenance cost is higher than its competition.  If the outcome of the test shows that the results are accepted this shows that the MechaCar would be seen as a good option compared to the consumers.  On the other side if the null hypothesis is rejected, than the MechaCar would be considered expensive to own.
+
+**What data is needed to run the statistical test?**
+
+The data needed would be average yearly maintenance cost for MechaCars and its competitors along with car pricing for each.
